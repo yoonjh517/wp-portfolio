@@ -103,6 +103,13 @@ h6 {
   background: #252d37;
   color: #fff;
 }
+.secondary-btn:hover a {
+  background: #252d37;
+  color: #fff;
+}
+.secondary-btn a {
+  text-decoration: none;
+}
 .secondary-btn:active,
 .secondary-btn:focus {
   background: #2b3541;

@@ -174,14 +174,27 @@ footer .copyright p a {
   margin: 0 8px;
 }
 .portfolio_links li a.active,
-.pagenation a.active {
+.pagenation > span.active {
   background: none;
   font-weight: bold;
   color: var(--main-text-color);
 }
+.portfolio > nav > ul {
+  padding-bottom: 48px;
+}
 .pagenation {
   padding: 24px 0;
   text-align: center;
+}
+.pagenation .secondary-btn {
+  padding: 0;
+}
+.pagenation .secondary-btn.active {
+  padding: 0 16px;
+}
+.pagenation .page-numbers {
+  display: block;
+  padding: 0 16px;
 }
 /* ---------- PORTFOLIO SINGLE ---------- */
 .portfolio-single .contents:first-child {
